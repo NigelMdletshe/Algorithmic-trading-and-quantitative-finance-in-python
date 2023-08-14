@@ -27,3 +27,4 @@ for ticker in stocks:
     print(ohlcv_data)
     
 
+#ended on number 9q
