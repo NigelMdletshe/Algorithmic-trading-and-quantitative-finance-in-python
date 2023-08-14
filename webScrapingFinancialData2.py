@@ -1,8 +1,6 @@
 # ============================================================================
 # Getting financial data from yahoo finance using webscraping
 # Author - Nigel Mbongeni Mdletshe
-
-# Please report bugs/issues in the Q&A section
 # =============================================================================
 
 import requests
