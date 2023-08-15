@@ -16,6 +16,7 @@ for ticker in tickers:
     page = requests.get(url, headers=headers)
     page_content = page.content
     soup = BeautifulSoup(page_content,"html.parser")
+    print(soup)
     tabl = soup.find_all("table" , {"class" : "W(100%) Bdcl(c)"}) #remove/add the trailing space if getting error
     
     temp_stats = {}
